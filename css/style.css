@@ -21,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
-    font-size: 85px;
+    font-size: 5vw;
     color: white;
     margin: 0 auto;
     margin-top: 5vh;
@@ -61,4 +61,42 @@ body {
 .list li .heading {
     text-align: center;
     margin: 2vh;
+}
+
+.btn-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 7vh;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    color: rgb(224, 224, 224);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5vh;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.footer p a {
+    color: white;
+    text-decoration: none;
 }
